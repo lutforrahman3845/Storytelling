@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>storytelling xr</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./Star_icon.png" sizes="16X16">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <!-- Navigation-Bar -->
+        <div id="navigation-bar">
+            <div id="nav">
+                <div id="nav-left">
+                    <img src="./Star_icon.png" alt="" id="nav-icon">
+                    <img src="./Star_text.png" alt="" id="nav-text">
+                </div>
+                <div id="nav-right">
+                    <ul>
+                        <!-- Navigation Bar links for section-->
+                        <li><a href="#" id="s1" class="nav" onclick="scrollToSection('section1')">Home</a></li>
+                        <li><a href="#" id="s2" class="nav" onclick="scrollToSection('section2')">For Whom</a></li>
+                        <li><a href="#" id="s3" class="nav" onclick="scrollToSection('section3')">Use cases</a></li>
+                        <li><a href="#" id="s4" class="nav" onclick="scrollToSection('section4')">Shoot Edit</a></li>
+                        <li><a href="https://hub.storytellingar.com/" id="s5" class="naviga">Hub</a></li>
+                    </ul>
+                    <!-- mobile responsive nav icon  and link-->
+                    <div id="responsive-nav">
+                        <a href="https://hub.storytellingar.com/" id="s5" class="naviga">Hub</a>
+                        <i class="ri-menu-line nav-icon" id="navIcon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile responsive nav div -->
+        <div id="show-nav">
+            <div id="show-navDiv">
+                <ul>
+                    <!-- mobile responsive navigation links -->
+                    <li><a href="#" id="s1"  onclick="scrollToSection('section1')">Home</a></li>
+                    <li><a href="#" id="s2"  onclick="scrollToSection('section2')">For Whom</a></li>
+                    <li><a href="#" id="s3"  onclick="scrollToSection('section3')">Use cases</a></li>
+                    <li><a href="#" id="s4" onclick="scrollToSection('section4')">Shoot Edit</a></li>
+                </ul>
+                <i class="ri-close-circle-fill closs-icon" id="closs-icon"></i>
+            </div>
+        </div>
+        <!-- Home div -->
+        <div id="section1" class="content home">
+            <!-- top Title video On home div -->
+            <video autoplay loop muted src="./storytellingxrheader.mp4"></video>
+            <div id="header">
+                <div id="block">
+                     <div id="header-name">
+                       <h5>Beta</h5>
+                     </div>
+                     <div id="header-name">
+                        <h1>Storytelling XR</h1>
+                     </div>
+                 </div>
+                 <div id="header-name">
+                    <h4>Mixed Reality storytelling</h4>
+                 </div>
+             </div>
+         </div>
+        </div>
+        <!-- For whom div -->
+        <div id="section2" class="content for-whom">
+            <hr class="hr-gradient">
+            <div id="blur-colors">
+                <div id="blur-color1"></div>
+                <div id="blur-color2"></div>
+            </div>
+            <div id="forwhom-top">
+                    <div id="top-text">
+                        <h1>Augment your video with digital objects</h1>
+                        <h4>Track your camera while shooting, no post tracking is required</h4>
+                    </div>
+                    <div id="top-div">
+                        <!-- catagoris box 1 // social media-->
+                        <div id="social" class="catagory-div">
+                            <div id="catagory-name">
+                                <h3>Social Storyteller  </h3>
+                                <img src="./bullhorn.png" alt="">
+                            </div>
+                            <hr class="catagory-hr s1">
+                            <div id="catagory-info">
+                                Dancer, Singer, Marketer, Product Visualizer,Podcaster, Product Reviewer, Live Streamer Whoever Need A Vibrant Customizable Dynamic &Camera Matched Backgrounds/Artifact for a moreProfessonal look in the social Present.
+                            </div>
+                        </div>
+                        <!-- catagoris box 2 // Film Director -->
+                        <div id="flim" class="catagory-div">
+                            <div id="catagory-name">
+                                <h3>Flim Director &<br>cinematographer</h3>
+                                <img src="./film-reel.png" alt="">
+                            </div>
+                            <hr class="catagory-hr">
+                            <div id="catagory-info">
+                                Want a quick live Pre-Visualization of a CG Drivenlive action sot for experimenting or pitching, ThenThis is your Handy Tool.
+                            </div>
+                        </div>
+                        <!-- catagoris box 3 // Video Editor -->
+                        <div id="video-editor" class="catagory-div">
+                            <div id="catagory-name">
+                                <h3>Video Editor & VFX<br>Artist</h3>
+                                <img src="./video-editing.png" alt="">
+                            </div>
+                            <hr class="catagory-hr">
+                            <div id="catagory-info">
+                                Welcome to the world of virtual production & realtime in camera VFX using cutting EDGE game Engine technologies but with easier setup process.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="forwhom-bottom">
+                    <div id="blur-color"></div>
+                    <div id="bottom-element">
+                          <div id="forwhombottom-text">
+                             <h1>Storytelling XR is Democratizing</h1>
+                              <h1>Virtual production</h1>
+                             <br>
+                             <p>"Virtual production (VP) is a revolutionary way to generate creative video content using game engine technology in a budget friendly manner. However current hardware requirements for <span id="dots">...</span><span id="more">VP such as big 360 led Screen, tracking equipments and relatively large studio setup along with scarcity of skilled unreal engine professionals are still entry barriers for many indie & small production houses. Storytelling XR is solving this through accessible setup - recent smarphones, pc or mac, green screen, wirless video streaming & a special marketplace for virtual production assets"</span> <button onclick="myFunction()" id="myBtn">Read more</button></p>
+                         </div>
+                         <div id="forwhombottom-img">
+                             <div id="img">
+                                  <img src="./360_illustration-01.png" alt="">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        <!-- Use case div -->
+        <div id="section3" class="content use-case">
+             <hr class="hr-gradient">
+        <!-- Use app for Digital object in Real time environment -->
+            <div id="digital-object" class="useCase">
+                <div id="text">
+                    <h1>Digital Object in 
+                        Real Enviroment</h1>
+                </div>
+                <div id="video">
+                    <!-- Digital Object video -->
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/R7kxsqPzSVI?si=S3Pzvv0R65QwcyeW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- Use app for Real performance in digital environment -->
+            <div id="real-perfomance" class="useCase">
+                <div id="video" class="useCase-v2">
+                    <div id="blur-colors">
+                        <div id="blur-color1"></div>
+                        <div id="blur-color2"></div>
+                    </div>
+                    <!-- Real performance video-->
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/F89K-Ri4ALo?si=rJzg549hXr4x0xHa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div id="text">
+                    <h1>Real performance in digital environment</h1>
+                </div>
+            </div>
+            <!-- Use app for Shoot once and use varity of ready to use 360 CG -->
+            <div id="shoot-once" class="useCase">
+                <div id="text">
+                    <h1>Shoot once and use 
+                        varity of ready to use 
+                        360 CG & Real location 
+                        based enviroments 
+                        from our marketplace</h1>
+                </div>
+                <div id="video">
+                    <!-- Shoot once video -->
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/GnGDpWf5HIw?si=ud2mYk57ttNhjlht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <hr class="hr-gradient">
+        </div>
+        <!-- Shoot edith div -->
+        <div id="section4" class="content shoot-edit">
+            <!-- shoot section -->
+            <div id="shoot">
+                <!-- Shoot edit content div -->
+                <div id="shoot-item">
+                    <div id="shoot-title">
+                        <h4><i class="ri-bard-fill"></i>Shoot</h4>
+                    </div>
+                    <div id="shoot-content">
+                        <div id="video">
+                            <div id="blur-colors">
+                                <div id="blur-color1"></div>
+                                <div id="blur-color2"></div>
+                            </div>
+                            <!-- shoot edit video -->
+                            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Hh1AYIbqQk0?si=u1GuLGLDSD4YmMJz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div id="text">
+                            <h1>Capture Spatial 
+                                Shots With Our Apps</h1>
+                                <div id="blur-color">
+                                    <div id="blur-color1"></div>
+                                    <div id="blur-color2"></div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- App store link -->
+                <div id="app-store">
+                    <!--For Apple users -->
+                    <div id="appstore-apple">
+                        <a href="https://apps.apple.com/us/app/storytelling-ar/id1624983642
+                        ">
+                            <img src="./App Store Black.png" alt="">
+                        </a>
+                    </div>
+                    <!-- For Andirod users -->
+                    <div id="appstore-google">
+                        <a href="https://play.google.com/store/apps/details?id=com.storytellingar.moments">
+                            <img src="./Google Play Black.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <hr class="hr-gradient">
+            </div>
+            <!-- Unity section -->
+            <div id="unity">
+                <div id="unity-plugin">
+                       <!-- unity div buttons -->
+                        <div id="unitydiv-button">
+                            <button id="ud1" class="btn-scale" onclick="showContent('unitydiv1'); scaleButton('ud1')">Unity3D</button>
+                            <button id="ud2" onclick="showContent('unitydiv2'); scaleButton('ud2')">Install</button>
+                            <button id="ud3" onclick="showContent('unitydiv3'); scaleButton('ud3')">Edit</button>
+                        </div>
+                        <!-- Unity div1 for Unity3D-->
+                        <div id="unitydiv1" class="u-div">
+                           <div id="div1-imgText">
+                                 <h1>Deep Integration With Unity3D Timeline</h1>
+                                <img src="./image_3.png" alt="">
+                           </div>
+                            <div id="download-plugin">
+                                <a href="./star_unity_0.7.2.unitypackage" download>Download Unity Plugin</a>
+                                <h4>v-1.2</h4>
+                            </div>
+                        </div>
+                        <!-- Unity div2 for Install-->
+                        <div id="unitydiv2" class="u-div">
+                           <div id="unity-install-tutorial">
+                                <div id="div2-text">
+                                    <h1>LET'S INSTALL UNITY</h1>
+                                </div>
+                                <div id="div2-video">
+                                     <iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/4lFfuaqZdL0?si=mQ6UXRQsV1gEols6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                 </div>
+                           </div>
+                        </div>
+                        <!-- Unity div3 for Edit-->
+                        <div id="unitydiv3" class="u-div">
+                            <!-- unity div3 for Edit tutorials  -->
+                            <div id="edit">
+                                <div id="tutorials">
+                                    <!-- tutorials btn -->
+                                    <div id="tutorials-btn">
+                                        <button id="td1" class="btn-scale" onclick="showTutorial('tutorialdiv1'); scaleButton('td1')" >Tutorial 1</button>
+                                        <button id="td2" onclick="showTutorial('tutorialdiv2'); scaleButton('td2')">Tutorial 2</button>
+                                        <button id="td3" onclick="showTutorial('tutorialdiv3'); scaleButton('td3')">Tutorial 3</button>
+                                        <button id="td4" onclick="showTutorial('tutorialdiv4'); scaleButton('td4')">Tutorial 4</button>
+                                        <button id="td5" onclick="showTutorial('tutorialdiv5'); scaleButton('td5')">Tutorial 5</button>
+                                    </div>
+                                    <!-- tutorials1 div -->
+                                    <div id="tutorialdiv1" class="t-div">
+                                        <div id="edit-tutorial-div">
+                                            <div id="tutorial-div-text">
+                                                <h1>Produce a quick video story. Import a spatial shot, tune your video story in timeline with camera & 3D object. Export</h1>
+                                            </div>
+                                            <div id="tutorial-div-video">
+                                                <!-- tutorial1 video -->
+                                                <iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/7OEXtEruzCo?si=nv19PMFjbqi_554T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                             </div>
+                                       </div>
+                                    </div>
+                                    <!-- tutorials2 div -->
+                                    <div id="tutorialdiv2" class="t-div">
+                                        <div id="edit-tutorial-div">
+                                            <div id="tutorial-div-text">
+                                                <h1>Import a regular green screen video from any source and experiment with interesting cinematography with virtual camera.</h1>
+                                            </div>
+                                            <div id="tutorial-div-video">
+                                                <!-- tutorial2 video -->
+                                                <iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/TKhvLj8I8ww?si=AcxKJpIdeTN467Jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                             </div>
+                                       </div>
+                                    </div>
+                                    <!-- tutorials3 div -->
+                                    <div id="tutorialdiv3" class="t-div">
+                                        <div id="edit-tutorial-div">
+                                            <div id="tutorial-div-text">
+                                                <h1>Import a spatial green screen video from hub with tracked camera and place in a 3d Set.</h1>
+                                            </div>
+                                            <div id="tutorial-div-video">
+                                                <!-- tutorial3 video -->
+                                                <iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/cFe1M6CA_wc?si=OkIpMq-SLDjLulXf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                             </div>
+                                       </div>
+                                    </div>
+                                    <!-- tutorials4 div -->
+                                    <div id="tutorialdiv4" class="t-div">
+                                        <div id="edit-tutorial-div">
+                                            <div id="tutorial-div-text">
+                                                <h1>Import a spatial green screen video from hub with tracked camera and sync with a CG action in Timeline.</h1>
+                                            </div>
+                                            <div id="tutorial-div-video">
+                                                <!-- tutorial4 video -->
+                                                <iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/XkKH1D4N6Fc?si=cCTSkRVETC2Cj37D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                             </div>
+                                       </div>
+                                    </div>
+                                    <!-- tutorials5 div -->
+                                    <div id="tutorialdiv5" class="t-div">
+                                        <div id="edit-tutorial-div">
+                                            <div id="tutorial-div-text">
+                                                <h1>Connect Unity editor with live camera feed from the app for realtime preview of the composite (CG & Video) view.</h1>
+                                            </div>
+                                            <div id="tutorial-div-text">
+                                                <!-- tutorial5 video -->
+                                                <iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/Dce6YEpKGgA?si=oP7ZS3Ausr1PmkPP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                             </div>
+                                       </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <!-- Footer -->
+                <div id="footer">
+                    <!-- footer left and discord link -->
+                    <div id="footer-left">
+                        <h3>Join with Us</h3>
+                        <!-- Discord link -->
+                        <a href="https://discord.gg/z8SgFMvDRz">Discord Support Server</a>
+                    </div>
+                    <!-- footer right -->
+                    <div id="footer-right">
+                        <div id="info">
+                            <h5>INFO</h5>
+                            <h3>Articles</h3>
+                            <h3>Resources</h3>
+                        </div>
+                        <div id="contact">
+                            <h5>CONTACTS</h5>
+                            <h3>hello@storytellingxr.com</h3>
+                            <h3>Sector 13,House No 23 <br>
+                                Uttara,Dhaka - 1212</h3>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <hr class="hr-gradient">
+            <br> <br>
+        </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
